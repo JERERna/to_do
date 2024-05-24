@@ -1,0 +1,29 @@
+.DateTime {
+  background-color: #d6fff2;
+  display: grid;
+  grid-template-columns: 20% 1fr 30% ;
+  border: rgb(255, 255, 255) 2px solid;
+  border-radius: 10px;
+}
+.day{
+    font-size: 55px;
+    margin-top: 3px;
+}
+.month{
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+.year{
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.today{
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 15px 15px 0 0;
+}

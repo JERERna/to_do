@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+  input {
+    margin: 0 0 10px 0;
+    padding: 0%;
+    width: 250px;
+    height: 70px;
+    background: var(--input-color);
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: var(--font-color);
+    font-size: var(--item-font-size);
+    outline: none;
+    @media screen and (min-width: 600px) {
+      padding: 20px;
+      width: 300px;
+    }
+  }
+}
+.button-plus {
+  display: flex;
+  width: auto;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #add1e6;
+}

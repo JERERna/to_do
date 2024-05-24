@@ -1,0 +1,82 @@
+.form-control {
+  line-height: 1.1;
+  display: flex;
+  justify-content: auto;
+  border: rgb(255, 255, 255) 2px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+  width: 300px;
+  background-color: #d6fff2;
+  @media screen and (min-width: 600px) {
+    width: 400px;
+  }
+}
+
+.tn-container {
+  min-width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  @media screen and (min-width: 600px) {
+    margin-left: 30px;
+    min-width: 65%;
+  }
+}
+
+.bt-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30px;
+  margin-left: 40px;
+}
+.de-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30px;
+  margin-left: 10px;
+}
+.de-container :hover {
+  cursor: pointer;
+}
+.cr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 30px;
+  margin-left: 10px;
+}
+.cr-container :hover {
+  cursor: pointer;
+}
+
+.ed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: auto;
+  margin-left: 10px;
+  
+}
+.ed-container :hover {
+  cursor: pointer;
+}
+.tn-container2 {
+  min-width: 65%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+  background: var(--input-color);
+}
