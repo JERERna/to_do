@@ -51,16 +51,7 @@ const reducer = (todos, action) => {
 };
 
 function App() {
-  const [todos, dispatch] = useReducer(reducer, {} , () => {
-    const localtodo = localStorage.getItem("TODOTASK")
-    if(localtodo===null) {
-      return TODOS 
-    }
-    return JSON.parse(localtodo)
-  });
-  useEffect(() => {
-    localStorage.setItem("TODOTASK", JSON.stringify(todos));
-  }, [todos]);
+  const [todos, dispatch] = useReducer(reducer,TODOS)
 
   const addNewItem = (newitem) => {
     dispatch({
